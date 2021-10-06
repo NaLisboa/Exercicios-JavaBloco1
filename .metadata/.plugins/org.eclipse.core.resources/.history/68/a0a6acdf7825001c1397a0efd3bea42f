@@ -1,0 +1,24 @@
+package br.com.exercicios;
+
+import java.util.Scanner;
+
+public class Exercicio4 {
+
+	public static void main(String[] args) {
+		Scanner ler = new Scanner(System.in);
+
+		int numero, raizQuadrada, elevado, resto;
+		
+		System.out.println("Digite um número");
+		numero = ler.nextInt();
+		
+		resto = numero % 2;
+			
+		if(resto == 0) {
+			System.out.println("O numero é par");
+		} else {
+			System.out.println("o numero é impar");
+	}
+
+	}
+}

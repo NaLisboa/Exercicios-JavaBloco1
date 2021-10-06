@@ -1,0 +1,28 @@
+package br.com.generation.exercicios_aula02;
+
+import java.util.Scanner;
+
+public class Exercicio03_0410 {
+
+	public static void main(String[] args) {
+		
+		int idade;
+		String categoria1, categoria2, categoria3;
+
+		
+		Scanner leia = new Scanner(System.in);
+		System.out.println("Escreva sua idade: ");
+		
+		categoria1 = leia.next();
+		categoria2 = leia.next();
+		categoria3 = leia.next();
+		
+		idade = leia.nextInt();
+		
+		if (categoria1 >= 10 && categoria1 <= 14) {
+			System.out.println("A sua categoria é a infantil: ");
+			
+		}
+	}
+
+}

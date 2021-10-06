@@ -1,0 +1,17 @@
+package br.com.generation.aula03;
+
+import java.util.Scanner;
+
+public class Exercicio04_aula3 {
+
+	public static void main(String[] args) {
+		
+		Scanner leia = new Scanner(System.in);
+		
+		int pessoas, idade, sexoF, sexoM, SexoO, calma, nervosa, agressiva;
+		
+		while (pessoas >= 0; pessoas <= 150) {
+
+	
+
+}

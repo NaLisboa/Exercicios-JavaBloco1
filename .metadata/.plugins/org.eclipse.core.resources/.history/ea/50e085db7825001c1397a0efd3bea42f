@@ -1,0 +1,29 @@
+package br.com.generation.exercicios_aula02;
+
+import java.util.Scanner;
+
+public class Exercicio04_0410 {
+
+	
+	public static void main(String[] args) {
+		
+		double numero = 0;
+		
+		Scanner leia = new Scanner(System.in);
+		System.out.println("Digite um número: ");
+		
+		numero = leia.nextInt();
+		
+		if (numero % 2 == 0) {
+			System.out.println("Esse número é Par e a sua raíz quadrada é: " + Math.sqrt(numero));
+		}
+		
+		else {
+			System.out.println("Esse número é Ímpar e elevado ao quadrado o resultado é: " + Math.pow(numero, 2.0));
+		}
+		
+		leia.close();
+
+	}
+
+}

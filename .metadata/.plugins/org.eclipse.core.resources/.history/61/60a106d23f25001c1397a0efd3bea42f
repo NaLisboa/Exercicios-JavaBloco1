@@ -1,0 +1,18 @@
+package Exercicios0410;
+
+import java.util.Scanner;
+
+
+public class Exercicio02_0410 {
+	
+	Scanner ler = new Scanner(System.in);
+	int n1, n2, n3;
+	
+	System.out.println("Digite 3 números: ");
+	
+	
+	if (n1 <= n2 && n2 <= n3){
+		
+	}
+
+}
